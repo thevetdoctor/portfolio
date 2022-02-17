@@ -1,0 +1,78 @@
+img {
+  width: 300px;
+  height: 12em;
+  border-radius: 1em;
+}
+body {
+  background-color: #808000;
+  color: #f8f8ff;
+  padding: 1em;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* line-height: 1.8; */
+}
+header {
+  color: #f8f8ff;
+  background-color: #2f4f4f;
+  margin: -1em -1em 1em -1em;
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+footer {
+  background-color: #000;
+  margin: -1em;
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  position: static;
+  bottom: 0;
+}
+a {
+  text-decoration: none;
+  color: #f8f8ff;
+}
+ul {
+  text-align: center;
+  list-style: none;
+  display: flex;
+}
+li {
+  margin-right: 2em;
+}
+.projects {
+  display: flex;
+}
+.projects section {
+  padding: 0 2em;
+  /* width: 40vw; */
+}
+.projects h3 {
+  text-align: left;
+  margin-left: 2em;
+}
+.project {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+section {
+  padding: 0 1em;
+}
+span {
+  display: flex;
+  padding: 0 1em;
+}
+span span {
+  display: flex;
+  flex-flow: column;
+}
+.work,
+.education {
+  background-color: #a52a2a;
+  padding: 1em;
+  margin: -1em -1em 1em -1em;
+}
